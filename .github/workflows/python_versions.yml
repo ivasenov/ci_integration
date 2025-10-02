@@ -30,7 +30,7 @@ jobs:
         python -m pip install --upgrade pip setuptools wheel
         python -m pip install .[dev]
     - name: flake8
-    
+      run: 
     - name: Test with pytest
       run: |
         pytest
